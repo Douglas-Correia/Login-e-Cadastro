@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right, #5FCADF, #BF3EEF);
+}
+
+main {
+    margin: auto;
+    margin-top: 180px;
+    border: solid white;
+    border-radius: 20px 3px 20px 8px;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    box-shadow: black 3px 3px 3px;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.facebook {
+    display: inline;
+    border: solid black;
+    border-radius: 8px 6px 8px 6px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-left: 60px;
+    margin-right: 10px;
+    border: solid #415892;
+    background-color: #415892;
+    color: white;
+    box-shadow: #415892 2px 2px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img-facebook:hover{
+    transform: scale(1.05);
+}
+
+.facebook a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.gmail {
+    display: inline;
+    border-radius: 8px 6px 8px 6px;
+    padding-top: 15px;
+    padding-right: 15px;
+    border: solid rgb(241, 235, 235);
+    color: black;
+    box-shadow: rgb(241, 235, 235) 2px 2px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img-gmail:hover{
+    transform: scale(1.05);
+}
+
+.gmail a {
+    padding-left: 15px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.cadastro {
+    padding-top: 25px;
+    margin-left: 62px;
+}
+.cadastro_usuario {
+    width: 270px;
+    height: 25px;
+    border: 0;
+    border-bottom: solid 1px black;
+    margin-bottom: 15px;
+}
+.cadastro_senha {
+    width: 270px;
+    height: 25px;
+    border: 0;
+    border-bottom: solid 1px black;
+}
+.cadastro_email {
+    width: 270px;
+    height: 25px;
+    border: 0;
+    border-bottom: solid 1px black;
+    margin-bottom: 15px;
+}
+.botao {
+    padding-top: 35px;
+}
+.botao .botao_cadastrar {
+    width: 260px;
+    height: 30px;
+    margin-left: 70px;
+    border: 0;
+    border-radius: 7px 7px 7px 7px;
+    background-color: #333333;
+    color: white;
+    box-shadow: #333333 2px 2px 2px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.botao_cadastrar:hover {
+    transform: scale(1.05);
+    background-color: black;
+}
+.termos {
+    text-decoration: none;
+    color: black;
+}
+.check_termos {
+    width: 15px;
+    height: 12px;
+}
